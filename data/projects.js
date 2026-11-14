@@ -4,12 +4,17 @@
 
 export const projects = [
   {
-    title: "State of BC’s Non-Profit Sector Report 2026",
+    title: "2026 State of BC’s Non-Profit Sector Report",
     href: "/reports/2026-report.pdf",
     image: "/images/report-2026.jpg",
   },
   {
-    title: "State of BC’s Non-Profit Sector Report 2025",
+    title: "2025 State of BC’s Non-Profit Sector Dashboard",
+    href: "https://public.tableau.com/views/Dashboard_17597936449290/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+    image: "/images/dashboard-2025.jpg",
+  },
+  {
+    title: "2025 State of BC’s Non-Profit Sector Report",
     href: "/reports/2025-report.pdf",
     image: "/images/report-2025.jpg",
   },

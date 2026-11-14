@@ -420,6 +420,11 @@ a {
   margin-bottom: 4px;
 }
 
+.about-copy em.emphasis {
+  font-style: italic;
+  text-decoration: underline;
+}
+
 .about-copy a {
   font-weight: 600;
   text-decoration: underline;

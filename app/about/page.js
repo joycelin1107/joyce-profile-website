@@ -13,6 +13,10 @@ function Paragraph({ content }) {
       {pieces.map((piece, i) =>
         typeof piece === "string" ? (
           piece
+        ) : piece.emphasis ? (
+          <em key={i} className="emphasis">
+            {piece.text}
+          </em>
         ) : (
           <a key={i} href={piece.href} target="_blank" rel="noreferrer">
             {piece.text}

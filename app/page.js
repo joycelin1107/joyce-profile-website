@@ -14,7 +14,9 @@ export default function HomePage() {
           <div className="hero-panel">
             <h1>Welcome, I&apos;m {site.firstName}</h1>
             <p className="hero-subheadline">{site.subheadline}</p>
-            <p>{site.headline}</p>
+            {site.headline.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
             <a className="button button-dark" href={`mailto:${site.email}`}>
               Get in touch
             </a>
