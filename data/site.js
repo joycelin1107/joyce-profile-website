@@ -12,7 +12,7 @@ export const site = {
   // Homepage hero. Each item in `headline` is its own paragraph.
   subheadline: "a community development collaborator based in Richmond, BC.",
   headline: [
-    "That’s me on the left with a mic, doing what I love—being in community and facilitating participatory sensemaking. I work where research meets community: designing data collection that translates into indicators for the stories we want to tell, and knowledge that people and organizations can use for learning, decision-making, and planning.",
+    "That’s me on the left with a mic, doing what I love—being in community to listen, learn, and create together. I work where research meets community: designing data collection that translates into indicators for the stories we want to tell, and knowledge that people and organizations can use for learning, decision-making, and planning.",
     "Over a decade in BC’s non-profit sector has taught me that good evidence, much like everything else, starts with good relationships.",
   ],
 

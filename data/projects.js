@@ -19,6 +19,11 @@ export const projects = [
     image: "/images/report-2025.jpg",
   },
   {
+    title: "2023 State of BC’s Non-Profit Sector Report",
+    href: "/reports/2023-report.pdf",
+    image: "/images/report-2023.jpg",
+  },
+  {
     title:
       "Network-Driven: Co-designing the BC Non-Profit Network’s participatory evaluation",
     href: "https://dspace.library.uvic.ca/items/b8a63d34-f0a3-4156-a90d-451363891d4f",

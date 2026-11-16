@@ -26,7 +26,7 @@ export default function HomePage() {
 
       <section className="work">
         <div className="section-inner">
-          <h2>Featured Work</h2>
+          <h2>Work Samples</h2>
           <p className="work-intro">
             {site.skills.map((line, i) => (
               <span key={i}>
