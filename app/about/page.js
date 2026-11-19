@@ -45,6 +45,13 @@ export default function AboutPage() {
             <Paragraph key={i} content={paragraph} />
           ))}
 
+          <h3>Interests</h3>
+          <ul>
+            {about.interests.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+
           <h3>Education</h3>
           <ul>
             {about.education.map((item) => (

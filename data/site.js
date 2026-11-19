@@ -56,6 +56,13 @@ export const about = {
     "After years of supporting community development through provincial organizations, I am looking for ways to take part directly in community building in my home community of Richmond, supporting non-profits, local government, and businesses alike. I am open to the unpredictable possibilities of “showing up” with my collaborative spirit, heart, and skills, and of “being in community with others.” If my interests align with yours or your organization’s needs, let’s connect!",
   ],
 
+  interests: [
+    "Participatory community development, deliberative democracy, citizens’ assemblies",
+    "Care economy, child care, and future of work",
+    "Reimagining the non-profit and philanthropic sector",
+    "City-building and governance",
+  ],
+
   education: [
     "Master of Arts in Community Development, University of Victoria",
     "Bachelor of Arts, University of British Columbia",
