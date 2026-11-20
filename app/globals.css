@@ -202,10 +202,10 @@ a {
 
 .hero p {
   margin: 0 0 22px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 /* 50% white panel behind the hero text. Even over the darkest part of the
@@ -284,6 +284,34 @@ a {
   font-size: 16px;
   line-height: 1.75;
   text-align: center;
+}
+
+.available .section-inner {
+  padding-top: 0;
+}
+
+.available-body {
+  max-width: 860px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.available-body p {
+  margin: 0 0 16px;
+}
+
+.available-body ul {
+  margin: 0 0 16px;
+  padding-left: 20px;
+}
+
+.available-body li {
+  margin-bottom: 8px;
+}
+
+.available-body strong {
+  font-weight: 700;
 }
 
 .project-grid {

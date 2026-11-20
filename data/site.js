@@ -26,6 +26,37 @@ export const site = {
     ],
     ["Community Engaged Research", "Evaluation"],
   ],
+
+  // "Currently Available" section on the homepage, below Work Samples.
+  // Each service's title is shown in bold before its description.
+  available: {
+    intro:
+      "I’m open to new work and would welcome the chance to be a thoughtful partner to your organization in any of these areas:",
+    services: [
+      {
+        title: "Evaluation and community-based research.",
+        text: "Designing and carrying out evaluations and research that centre community voices and turn findings into learning you can act on.",
+      },
+      {
+        title: "Environmental scans.",
+        text: "Mapping the landscape of programs, policies, partners, and practices so you can plan with a clear picture of your context.",
+      },
+      {
+        title: "Fund development.",
+        text: "Writing grant proposals, funder reports, and impact stories that show the value of your work.",
+      },
+      {
+        title: "Special projects.",
+        text: "Supporting time-limited projects that need focused attention, such as leadership succession planning.",
+      },
+      {
+        title: "Interim capacity support.",
+        text: "Stepping in during staff transitions, leaves, or busy seasons to keep important operational and administrative work moving.",
+      },
+    ],
+    closing:
+      "Looking for support in another way? I’m always glad to connect, learn, and brainstorm together.",
+  },
 };
 
 export const about = {

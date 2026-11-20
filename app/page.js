@@ -42,6 +42,23 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <section className="work available">
+        <div className="section-inner">
+          <h2>Currently Available</h2>
+          <div className="available-body">
+            <p>{site.available.intro}</p>
+            <ul>
+              {site.available.services.map((service) => (
+                <li key={service.title}>
+                  <strong>{service.title}</strong> {service.text}
+                </li>
+              ))}
+            </ul>
+            <p>{site.available.closing}</p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
